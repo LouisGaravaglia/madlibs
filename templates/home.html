@@ -10,8 +10,11 @@
 
 <h1>MADLIBS!</h1>
 <form action="/story">
-<input type="text" placeholder=>
+{% for prompt in prompts %}
+<label for="{{prompt}}">{{prompt}}</label>
+  <input type="text" placeholder = "..." name="{{prompt}}"><br>
 
+{% endfor %}
 </form>
 <h1>{{prompts}}</h1>
 <p>{{text}}</p>

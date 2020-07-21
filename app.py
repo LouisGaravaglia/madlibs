@@ -15,5 +15,11 @@ def home_page():
     story = choice(stories)
     prompts = story.prompts
     text = story.template
-    return render_template("home.html", prompts=prompts, text=text)
+    return render_template("home.html", story=story, prompts=prompts, text=text)
+
+# @app.route('/story')
+# def show_story():
+#     """shows the finished story"""
+    
+
 
