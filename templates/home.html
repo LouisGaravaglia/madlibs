@@ -1,9 +1,20 @@
+
+
 {% extends "base.html" %}
+
+{% block title %} HOME {% endblock %}
+
+
 {% block content %}
 
 
+<h1>MADLIBS!</h1>
+<form action="/story">
+<input type="text" placeholder=>
 
-
+</form>
+<h1>{{prompts}}</h1>
+<p>{{text}}</p>
 
 
 
