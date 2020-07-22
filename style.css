@@ -1,11 +1,7 @@
-h1 {
-    margin: 20px;
+body {
+    background-color: red;
 }
 
 form {
-    margin: 20px;
-}
-
-* {
-    color: red;
+    margin: 40px;
 }
