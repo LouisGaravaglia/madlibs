@@ -50,3 +50,11 @@ story2 = Story(
     He {verb} a {adjective} life. 
     Until one day he was murdered by the {noun}."""
 )
+
+story3 = Story(
+    ["adjective", "adjective", "noun", "verb", "noun"],
+    """Johnny was a very {adjective} boy. Others said he was too {adjective}.
+    But his brother knew that if he was stranded on a {noun} with Johnny,
+    and there sun was {verb} down on them. Johnny would get them
+    back to the {noun} safely. """
+)

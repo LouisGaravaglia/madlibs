@@ -8,6 +8,8 @@
 {% block content %}
 
 
+
+
 <h1>MADLIBS!</h1>
 <form action="/story">
 {% for prompt in prompts %}
@@ -15,11 +17,10 @@
   <input type="text" placeholder = "..." name="{{prompt}}"><br>
 
 {% endfor %}
+<input type="submit" value="Submit">
 </form>
 <h1>{{prompts}}</h1>
-<p>{{text}}</p>
-
-
+<p>{{text}}</p> 
 
 
 

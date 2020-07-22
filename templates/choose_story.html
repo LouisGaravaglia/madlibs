@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %} CHOOSE A STORY {% endblock %}
+
+
+
+{% block content %}
+
+<ul>
+{% for story in stories %}
+<li>{{story.template}}</li>
+
+{% endfor %}
+</ul>
+
+ 
+
+
+
+
+
+{% endblock %}
