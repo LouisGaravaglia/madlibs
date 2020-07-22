@@ -1,0 +1,35 @@
+form {
+    margin: 20px;
+}
+
+
+h1 {
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+button {
+    margin-top: 10px;
+}
